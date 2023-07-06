@@ -1,0 +1,5 @@
+{
+"git clone":"clone repo", 
+"git push":"add cahnges to remote repo",
+"git pull":"get current state to local repo"
+}
