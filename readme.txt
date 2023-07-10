@@ -13,4 +13,5 @@ Nastya
 6. залила изменения через fork
 7. создала файл:  touch readme.txt
 8. проверка изменений: git fetch
-9. залила readme.txt: git push origin course
+9. залила readme.txt: git commit -a 
+ git push origin course
