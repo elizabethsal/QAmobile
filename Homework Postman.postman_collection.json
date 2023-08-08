@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "6bab227c-8e99-46e4-8a1b-84f94d257ee9",
+		"name": "Homework Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22881201"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{test}}/api/users/2",
+					"protocol": "https",
+					"host": [
+						"{{test}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"morpheus\",\n    \"job\": \"leader\"\n}"
+				},
+				"url": {
+					"raw": "https://{{test}}/api/users",
+					"protocol": "https",
+					"host": [
+						"{{test}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"morpheus\",\n    \"job\": \"zion resident\"\n}"
+				},
+				"url": {
+					"raw": "https://{{test}}/api/users/2",
+					"protocol": "https",
+					"host": [
+						"{{test}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{test}}/api/users/2",
+					"protocol": "https",
+					"host": [
+						"{{test}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{test}}/api/unknown",
+					"protocol": "https",
+					"host": [
+						"{{test}}"
+					],
+					"path": [
+						"api",
+						"unknown"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "test",
+			"value": "reqres.in"
+		}
+	]
+}
